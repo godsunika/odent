@@ -99,7 +99,7 @@ const ReservationListSection = ({ api }) => {
             }}
           >
             {
-              qResult?.data && 
+              qResult?.config?.data && 
               (
                 <DataGrid
                   rows     = {qResult.data}
